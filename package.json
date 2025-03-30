@@ -1,0 +1,23 @@
+{
+  "name": "syahakato-djs-admin",
+  "version": "1.0.0",
+  "description": "A Discord bot for managing a Discord server",
+  "packageManager": "yarn@4.8.1",
+  "scripts": {
+    "build": "tsc",
+    "start": "NODE_ENV=production node .build/main.js",
+    "start:dev": "ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4",
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "crypto-js": "^4.2.0",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
